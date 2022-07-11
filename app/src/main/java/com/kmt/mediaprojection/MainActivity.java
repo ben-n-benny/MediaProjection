@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         mediaProjectionManager = (MediaProjectionManager) getSystemService(Context.MEDIA_PROJECTION_SERVICE);
 
         activityResultLauncher.launch(mediaProjectionManager.createScreenCaptureIntent());
-
+        // added comment for commit
 
     }
 
